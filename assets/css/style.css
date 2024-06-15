@@ -1,0 +1,38 @@
+@font-face {
+    font-family: 'bold';
+    src: url(../fonts/Inter-Bold.ttf);
+}
+@font-face {
+    font-family: 'semibold';
+    src: url(../fonts/Inter-SemiBold.ttf);
+}
+@font-face {
+    font-family: 'medium';
+    src: url(../fonts/Inter-Medium.ttf);
+}
+@font-face {
+    font-family: 'regular';
+    src: url(../fonts/Inter-Regular.ttf);
+}
+:root{
+    --primary-color:#4CAF4F;
+    --secondary-color:#263238;
+    --info-color:#2194F3;
+
+    --font-bold: 'bold';
+    --font-semibold: 'semibold';
+    --font-medium: 'medium';
+    --font-regular: 'regular';
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+h1{
+    color:var(--primary-color);
+    font-family: var(--font-regular);
+}
+p{
+    color: var(--primary-color);
+}
